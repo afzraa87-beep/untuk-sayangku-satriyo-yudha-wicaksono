@@ -3,61 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Happy Birthday 💙</title>
+  <title>Kata-kata Romantis 💘</title>
   <style>
     body {
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(to bottom, #b3e5fc, #f8bbd0);
       color: #333;
       margin: 0;
-      padding: 0;
+      padding: 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
+      min-height: 100vh;
     }
-    .container {
-      max-width: 450px;
-      width: 100%;
-      padding: 20px;
+    h1 {
+      color: #ff4081;
+      margin-bottom: 20px;
+    }
+    .romantic-card {
+      background: #fff;
+      padding: 15px 20px;
+      margin: 10px;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      max-width: 350px;
       text-align: center;
+      font-size: 16px;
+      position: relative;
     }
-    .photo {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      border: 4px solid #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      object-fit: cover;
-      margin: 0 auto 20px;
+    .romantic-card::before {
+      content: "💖";
+      font-size: 20px;
+      position: absolute;
+      top: -10px;
+      left: -10px;
     }
-    .title {
-      font-size: 28px;
-      font-weight: bold;
-      color: #007bb2;
-      margin-bottom: 15px;
-    }
-    .message {
-      background-color: #fff;
-      border-radius: 12px;
-      padding: 15px;
-      margin: 10px 0;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-      font-size: 15px;
+    .romantic-card::after {
+      content: "💌";
+      font-size: 20px;
+      position: absolute;
+      bottom: -10px;
+      right: -10px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="https://via.placeholder.com/200" alt="Foto Romantis" class="photo" />
-    <div class="title">Happy Birthday, Sayangku! 🎂💖</div>
+  <h1>Kata-kata Romantis untukmu ✨</h1>
 
-    <div class="message">Hari ini spesial, sama seperti kamu di hatiku 💌</div>
-    <div class="message">Semoga kebahagiaan selalu menyertaimu di setiap langkah 🌸</div>
-    <div class="message">Terima kasih sudah selalu menjadi cahaya di hidupku ✨</div>
-    <div class="message">Aku bangga, aku bersyukur, aku cinta kamu – selalu 💙</div>
-      <a href="romantic.html" target="_blank" class="message" style="display:block; text-decoration:none; color:#007bb2; font-weight:bold;">Kata-kata Romantis 💘</a>
-  </div>
+  <div class="romantic-card">Kamu itu kayak lagu favorit, nggak pernah bosan kudengar 🎶</div>
+  <div class="romantic-card">Gak perlu bintang, kamu sudah cukup terang ✨</div>
+  <div class="romantic-card">Kalau kamu tanya apa yang paling kusuka, jawabannya senyummu 💙</div>
+  <div class="romantic-card">Tiap detik bersamamu itu keajaiban yang kusyukuri ✨</div>
+
 </body>
 </html>
-
-                                  
